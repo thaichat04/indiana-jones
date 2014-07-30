@@ -55,7 +55,7 @@ public class PathFinder {
 
   public static void main(String[] args) {
     if (args.length != 1) {
-      System.out.println("Usage java -jar indiana-jones-[version].jar [input-file-path]");
+      System.out.println("Usage: java -cp [classpath] com.indianajones.contest.PathFinder [input-file-path]");
       return;
     }
     
