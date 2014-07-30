@@ -60,3 +60,9 @@ Sortie
 18:40
 
 Usage: java -cp [classpath] com.indianajones.contest.PathFinder [input-file-path]
+
+Limitation:
+* Current date is 1970
+* Optimize path finder
+** Store only best paths when reaching to same Node
+** Other implementation of path finder

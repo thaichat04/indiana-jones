@@ -41,7 +41,7 @@ public class PathFinder {
     return solutions;
   }
   
-  Solution bestSolution() {
+  public Solution bestSolution() {
     ImmutableSortedMap.Builder<DateTime, Solution> sortedBuilder = ImmutableSortedMap.<DateTime, Solution>naturalOrder();
     for (Solution s: solutions.getSolutions()) {
       if (s.isLatestCity(scenario.getArrival())) {
