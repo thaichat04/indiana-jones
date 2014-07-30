@@ -1,4 +1,4 @@
-Indiana Jones à la conquête de l'Europe !
+Indiana Jones à la conquête de l'Europe
 ==========================================================================================
 
 Vous savez quoi, Indiana Jones reprend du service ! Et pour sa mission la plus périlleuse (si si) : il doit
