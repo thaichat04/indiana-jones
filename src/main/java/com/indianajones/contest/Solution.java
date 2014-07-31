@@ -1,6 +1,7 @@
 package com.indianajones.contest;
 
 import static com.google.common.base.Objects.toStringHelper;
+import static com.indianajones.contest.ScenarioBuilder.DATETIME_FORMAT;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -64,7 +65,7 @@ public class Solution {
   public String toString() {
     return toStringHelper(this)
         .add("path", path)
-        .add("momento", getMomento())
+        .add("momento", getMomento().toString(DATETIME_FORMAT))
         .toString();
   }
   

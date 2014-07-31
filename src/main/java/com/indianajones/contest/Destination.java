@@ -1,6 +1,7 @@
 package com.indianajones.contest;
 
 import static com.google.common.base.Objects.toStringHelper;
+import static com.indianajones.contest.ScenarioBuilder.DATETIME_FORMAT;
 
 import org.joda.time.DateTime;
 import org.joda.time.Duration;
@@ -54,7 +55,7 @@ public class Destination {
   public String toString() {
     return toStringHelper(this)
       .add("city", city)
-      .add("departure", departure)
+      .add("departure", departure.toString(DATETIME_FORMAT))
       .add("duration", duration)
       .toString();
   }

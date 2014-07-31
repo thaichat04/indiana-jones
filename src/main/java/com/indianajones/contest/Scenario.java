@@ -1,6 +1,7 @@
 package com.indianajones.contest;
 
 import static com.google.common.base.Objects.toStringHelper;
+import static com.indianajones.contest.ScenarioBuilder.DATETIME_FORMAT;
 
 import java.util.List;
 import java.util.Set;
@@ -53,7 +54,7 @@ public class Scenario {
     return toStringHelper(this)
         .add("departCity", depart)
         .add("arrivalCity", arrival)
-        .add("departureTime", departure)
+        .add("departureTime", departure.toString(DATETIME_FORMAT))
         .add("timetable", timetable)
         .toString();
   }
