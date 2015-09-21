@@ -5,7 +5,6 @@
   <artifactId>indiana-jones</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Indiana Jones Conquest Europa</name>
-
   <build>
     <plugins>
       <plugin>
